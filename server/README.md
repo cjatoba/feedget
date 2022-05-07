@@ -1,4 +1,4 @@
-*Initial configurations
+# Initial configurations
 
 ```
 mkdir server
@@ -23,13 +23,13 @@ In package.json:
   Insert afer line "tests" below line:
     "dev": "ts-node-dev src/server.ts"
 
-** Install express for routes:
+## Install express for routes:
 
 ```  
 npm i express
 npm i -D @types/express
 ```
-** Install Prisma:
+## Install Prisma:
   
 ```
 npm i prisma -D
